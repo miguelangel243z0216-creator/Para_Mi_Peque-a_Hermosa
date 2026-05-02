@@ -1,5 +1,5 @@
 // 1. FECHA DE INICIO (Cambia esto: Año, Mes-1, Día)
-const fechaInicio = new Date(2024, 11, 25); // Ejemplo: 15 de enero 2024
+const fechaInicio = new Date(2024, 10, 25); // Ejemplo: 15 de enero 2024
 
 // 2. CONTADOR DE TIEMPO
 function actualizarContador() {
