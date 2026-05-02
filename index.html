@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi persona favorita</title>
+    <!-- IMPORTANTE: El nombre aquí debe coincidir con tu archivo style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="flower-container"></div>
+    
+    <div class="music-player">
+        <p>🎵 Nuestra Canción</p>
+        <audio id="miMusica" loop>
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="toggleMusic()" id="musicBtn">Play</button>
+    </div>
+
+    <header>
+        <h1 class="titulo-principal">Nuestra Historia</h1>
+        <div id="contador">
+            <p>Llevamos juntos:</p>
+            <div id="tiempo">Calculando...</div>
+        </div>
+    </header>
+
+    <section class="frases-section">
+        <div class="maquina-escribir">
+            <span id="escritura-automatica"></span><span class="cursor">|</span>
+        </div>
+    </section>
+
+    <section class="recuerdos-section">
+        <h2>Nuestros Recuerdos ✨</h2>
+        <div class="recuerdos-container">
+            <!-- He agregado espacio para tus 15 fotos -->
+            <div class="polaroid-card"><img src="foto1.jpg"><p></p>TU CON EL BURRO❤️</div>
+            <div class="polaroid-card"><img src="foto2.jpg"><p></p>CUANDO FIMOS AVER A LOS PAJARITOS Y VIMOS UNOS BESANDOSE Y DIJIMOS QUE ERAMOS NOSOTROS❤️❤️❤️</div>
+            <div class="polaroid-card"><img src="foto3.jpg"><p>EN UNAS TE DEJE GANAR❤️</p></div>
+            <div class="polaroid-card"><img src="foto4.jpg"><p>CON MI CAMISA DE BESTIDO❤️</p></div>
+            <div class="polaroid-card"><img src="foto5.jpg"><p>EN MI CUMPLE Y CON UN SUSTO DE UN DUENDE ❤️😂😂</p></div>
+            <div class="polaroid-card"><img src="foto6.jpg"><p></p>A QUI YA MENOS ASUSTADO Y CON GANAS DE DARTE BESOS❤️</div>
+            <div class="polaroid-card"><img src="foto7.jpg"><p>ROMIDITOS ❤️</p></div>
+            <div class="polaroid-card"><img src="foto8.jpg"><p>NUESTRA PRIMERA SALIDA A LA FERIA</p></div>
+            <div class="polaroid-card"><img src="foto9.jpg"><p>EL ING Y LA ENFERMERA MAS HERMOSA 💕😍😍😍</p></div>
+            <div class="polaroid-card"><img src="foto10.jpg"><p>LO MEJOR DE LO MEJOR ("TU Y TUS BESOS")❤️</p></div>
+            <div class="polaroid-card"><img src="foto11.jpg"><p>FOTO PAL FEIS❤️😂</p></div>
+            <div class="polaroid-card"><img src="foto12.jpg"><p></p>UNOS THERIANS JAJAJA😂😂</div>
+            <div class="polaroid-card"><img src="foto13.jpg"><p>JUNTOS APESAR DE TODO❤️</p></div>
+            <div class="polaroid-card"><img src="foto14.jpg"><p>CON EL OJO OREJON</p></div>
+            <div class="polaroid-card"><img src="foto15.jpg"><p>ESTOS NIÑOS SE AMAN MUCHISIMOOOOOOOOO ❤️❤️❤️❤️❤️❤️❤️❤️❤️</p></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
